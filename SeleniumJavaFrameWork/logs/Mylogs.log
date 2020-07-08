@@ -1,0 +1,4 @@
+[INFO ] 2020-07-05 23:49:22.465 [main] Log4jclass - this is info msg
+[WARN ] 2020-07-05 23:49:22.481 [main] Log4jclass - this warn msg
+[FATAL] 2020-07-05 23:49:22.482 [main] Log4jclass - this is fatal msg
+[ERROR] 2020-07-05 23:49:22.482 [main] Log4jclass - this is error msg
