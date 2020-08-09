@@ -1,0 +1,13 @@
+ //assert and verify commands
+ 
+ assert: once the assert is applied if the test step is fail it will stop the execution. if the test step is true it will continue the test excution 
+ 
+verify: even if the test case is fail or pass the test execution will continue
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//WebDriver is an interface and all the methods which are declared in Webdriver interface are implemented by respective driver class. But if we do upcasting,we can run the scripts in any browser .i.e running the same automation scripts in different browsers to achieve Runtime Polymorphism.
+
+WebDriver driver = new FirefoxDriver();
+
+Here, WebDriver is an interface, driver is a reference variable, FirefoxDriver() is a Constructor, new is a keyword, and new FirefoxDriver() is an Object.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

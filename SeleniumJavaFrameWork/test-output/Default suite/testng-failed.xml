@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestNGMultiBrowserDemo">
+      <class name="AppSierraTask.WebDevelopment">
         <methods>
-          <include name="test1"/>
+          <include name="GoibiboBooking"/>
+          <include name="SetUpChrome"/>
+          <include name="closegoibibo"/>
         </methods>
-      </class> <!-- TestNGMultiBrowserDemo -->
+      </class> <!-- AppSierraTask.WebDevelopment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

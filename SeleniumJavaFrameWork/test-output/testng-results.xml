@@ -2,31 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="14214" started-at="2020-07-07T20:27:31Z" finished-at="2020-07-07T20:27:45Z">
+  <suite name="Default suite" duration-ms="70128" started-at="2020-08-09T13:54:59Z" finished-at="2020-08-09T13:56:09Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14214" started-at="2020-07-07T20:27:31Z" finished-at="2020-07-07T20:27:45Z">
-      <class name="TestNGMultiBrowserDemo">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:TestNGMultiBrowserDemo@604ed9f0]" name="setup" is-config="true" duration-ms="14180" started-at="2020-07-08T01:57:31Z" finished-at="2020-07-08T01:57:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="70128" started-at="2020-08-09T13:54:59Z" finished-at="2020-08-09T13:56:09Z">
+      <class name="AppSierraTask.WebDevelopment">
+        <test-method status="PASS" signature="SetUpChrome()[pri:0, instance:AppSierraTask.WebDevelopment@91161c7]" name="SetUpChrome" is-config="true" duration-ms="7165" started-at="2020-08-09T19:24:59Z" finished-at="2020-08-09T19:25:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:TestNGMultiBrowserDemo@604ed9f0]" name="test1" duration-ms="12" started-at="2020-07-08T01:57:45Z" finished-at="2020-07-08T01:57:45Z">
+        </test-method> <!-- SetUpChrome -->
+        <test-method status="PASS" signature="GoibiboBooking()[pri:0, instance:AppSierraTask.WebDevelopment@91161c7]" name="GoibiboBooking" duration-ms="60263" started-at="2020-08-09T19:25:06Z" finished-at="2020-08-09T19:26:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:TestNGMultiBrowserDemo@604ed9f0]" name="teardown" is-config="true" duration-ms="0" started-at="2020-07-08T01:57:45Z" finished-at="2020-07-08T01:57:45Z">
+        </test-method> <!-- GoibiboBooking -->
+        <test-method status="PASS" signature="closegoibibo()[pri:0, instance:AppSierraTask.WebDevelopment@91161c7]" name="closegoibibo" is-config="true" duration-ms="2670" started-at="2020-08-09T19:26:06Z" finished-at="2020-08-09T19:26:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- TestNGMultiBrowserDemo -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- closegoibibo -->
+      </class> <!-- AppSierraTask.WebDevelopment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
