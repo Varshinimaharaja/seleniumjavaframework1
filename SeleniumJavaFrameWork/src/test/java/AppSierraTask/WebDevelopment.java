@@ -47,10 +47,10 @@ public class WebDevelopment {
 		@AfterTest
 		public void closegoibibo() {
 			
-			//close browser
-			 driver.close();
-			 driver.quit();
-			 System.out.println("Test completed succesfully");
+		//close browser
+		driver.close();
+	    driver.quit();
+	    System.out.println("Test completed succesfully");
 
 		}
 
