@@ -34,7 +34,6 @@ public class GoibiboTravelDetails {
 	}
 		
 		
-		
 		public static void Enter_From_To_Destination(WebDriver driver) {
 		// click on round trip
 		driver.findElement(By.id("roundTrip")).click();
@@ -87,6 +86,7 @@ public class GoibiboTravelDetails {
 		//payment through Wallet- amazon pay
 		 wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@id='tab_wallet']/div[2]//i")));
 		driver.findElement(By.xpath("//div[@id='tab_wallet']/div[2]//i")).click();
-}
+         
+		}
 
 }

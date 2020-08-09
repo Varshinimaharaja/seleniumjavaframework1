@@ -15,8 +15,8 @@ import org.testng.annotations.Test;
 
 public class WebDevelopment {
 
-	 static WebElement element = null;
-	 private static WebDriver driver = null;
+	static WebElement element = null;
+	private static WebDriver driver = null;
 	private String[] args;	
 	
 	 
@@ -42,7 +42,6 @@ public class WebDevelopment {
 		pageobjectpackage.GoibiboTravelDetails.Make_payment_via_amazonpay_wallet(driver);
 		
 		}
-		
 		
 		
 		@AfterTest
