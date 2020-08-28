@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="70128" started-at="2020-08-09T13:54:59Z" finished-at="2020-08-09T13:56:09Z">
+  <suite name="Default suite" duration-ms="115517" started-at="2020-08-28T18:14:34Z" finished-at="2020-08-28T18:16:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="70128" started-at="2020-08-09T13:54:59Z" finished-at="2020-08-09T13:56:09Z">
-      <class name="AppSierraTask.WebDevelopment">
-        <test-method status="PASS" signature="SetUpChrome()[pri:0, instance:AppSierraTask.WebDevelopment@91161c7]" name="SetUpChrome" is-config="true" duration-ms="7165" started-at="2020-08-09T19:24:59Z" finished-at="2020-08-09T19:25:06Z">
+    <test name="Default test" duration-ms="115517" started-at="2020-08-28T18:14:34Z" finished-at="2020-08-28T18:16:30Z">
+      <class name="utils.ExcelUtils">
+        <test-method status="PASS" signature="getwebsite()[pri:0, instance:utils.ExcelUtils@55f3ddb1]" name="getwebsite" is-config="true" duration-ms="12704" started-at="2020-08-28T23:44:34Z" finished-at="2020-08-28T23:44:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SetUpChrome -->
-        <test-method status="PASS" signature="GoibiboBooking()[pri:0, instance:AppSierraTask.WebDevelopment@91161c7]" name="GoibiboBooking" duration-ms="60263" started-at="2020-08-09T19:25:06Z" finished-at="2020-08-09T19:26:06Z">
+        </test-method> <!-- getwebsite -->
+        <test-method status="PASS" signature="Test()[pri:0, instance:utils.ExcelUtils@55f3ddb1]" name="Test" duration-ms="102585" started-at="2020-08-28T23:44:47Z" finished-at="2020-08-28T23:46:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GoibiboBooking -->
-        <test-method status="PASS" signature="closegoibibo()[pri:0, instance:AppSierraTask.WebDevelopment@91161c7]" name="closegoibibo" is-config="true" duration-ms="2670" started-at="2020-08-09T19:26:06Z" finished-at="2020-08-09T19:26:09Z">
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:utils.ExcelUtils@55f3ddb1]" name="tearDown" is-config="true" duration-ms="200" started-at="2020-08-28T23:46:29Z" finished-at="2020-08-28T23:46:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closegoibibo -->
-      </class> <!-- AppSierraTask.WebDevelopment -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- utils.ExcelUtils -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

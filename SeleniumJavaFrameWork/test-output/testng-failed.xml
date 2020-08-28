@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="AppSierraTask.WebDevelopment">
+      <class name="utils.ExcelUtils">
         <methods>
-          <include name="GoibiboBooking"/>
-          <include name="SetUpChrome"/>
-          <include name="closegoibibo"/>
+          <include name="Test"/>
+          <include name="tearDown"/>
+          <include name="getwebsite"/>
         </methods>
-      </class> <!-- AppSierraTask.WebDevelopment -->
+      </class> <!-- utils.ExcelUtils -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
